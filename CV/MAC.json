@@ -23,20 +23,6 @@
         "type": "other",
         "URL": "http://www.locke.es"
       }
-    ],
-    "recommendations": [
-      {
-        "title": "Effective C++: 55 Specific Ways to Improve Your Programs and Designs (3rd Edition)",
-        "type": "reading",
-        "URL": "http://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321334876",
-        "authors": [
-          {
-            "name": "Scott",
-            "surnames": "Meyers",
-            "title": "Author"
-          }
-        ]
-      }
     ]
   },
   "experience": {
