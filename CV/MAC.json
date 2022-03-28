@@ -1,0 +1,449 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "settings": {
+    "language": "EN",
+    "MACVersion": "0.3"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Oscar",
+      "surnames": "Mateo Lozano",
+      "title": "Software Engineer at Apple",
+      "description": "",
+      "avatar": {
+        "alt": "profile-image",
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/7686eaae-80e3-4d0c-996d-1baa1724e176_2b1166f4553e56a14b26.2b1166f4553e56a14b26b1fed36b641a"
+      },
+      "location": {
+        "notes": "Madrid, Spain"
+      }
+    },
+    "relevantLinks": [
+      {
+        "type": "other",
+        "URL": "http://www.locke.es"
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Effective C++: 55 Specific Ways to Improve Your Programs and Designs (3rd Edition)",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321334876",
+        "authors": [
+          {
+            "name": "Scott",
+            "surnames": "Meyers",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "PPP Design, Implementation, and Debugging (2nd Edition)",
+        "type": "reading",
+        "URL": "http://www.amazon.com/PPP-Design-Implementation-Debugging-2nd/dp/0201700530%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201700530",
+        "authors": [
+          {
+            "name": "James D.",
+            "surnames": "Carlson",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "C Programming Language (2nd Edition)",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0131103628",
+        "authors": [
+          {
+            "name": "Brian W.",
+            "surnames": "Kernighan",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "The C++ Programming Language: Special Edition",
+        "type": "reading",
+        "URL": "http://www.amazon.com/The-Programming-Language-Special-Edition/dp/0201700735%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201700735",
+        "authors": [
+          {
+            "name": "Bjarne",
+            "surnames": "Stroustrup",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "21st Century C: C Tips from the New School",
+        "type": "reading",
+        "URL": "http://www.amazon.com/21st-Century-Tips-New-School/dp/1449327141%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1449327141",
+        "authors": [
+          {
+            "name": "Ben",
+            "surnames": "Klemens",
+            "title": "Author"
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "NTT (Nippon Telegraph and Telephone Corporation)"
+        },
+        "roles": [
+          {
+            "name": "R&D Engineer",
+            "startDate": "2006-09-01",
+            "finishDate": "2007-08-31",
+            "challenges": [
+              {
+                "description": "Researcher at the Media Recognition Group, working with computer vision and video processing technologies. Here, I designed and implemented a 3D visual tracker capable of running in real-time on GPUs, thanks to NVIDIA CUDA technology.\n\nThis tracked was presented in several international conferences and [publications](http://portal.acm.org/citation.cfm?id=1612928)."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Windows",
+                "type": "technology"
+              },
+              {
+                "name": "C++",
+                "type": "technology"
+              },
+              {
+                "name": "OpenGL",
+                "type": "technology"
+              },
+              {
+                "name": "cuda",
+                "type": "technology"
+              },
+              {
+                "name": "brook",
+                "type": "technology"
+              },
+              {
+                "name": "gpgpu",
+                "type": "technology"
+              },
+              {
+                "name": "sdl",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Zoovel"
+        },
+        "roles": [
+          {
+            "name": "CTO, co-founder",
+            "startDate": "2011-01-01",
+            "finishDate": "2012-10-31",
+            "challenges": [
+              {
+                "description": "Zoovel is a startup focused on providing residential networking devices, targeting global telecom carriers and broadband services platforms. I worked on raising this startup from day zero, changing roles often (from sales and OEM liaison to pre/post-sales engineering and R&D) and pushing many different business opportunities (from inception and sales to development and technical validation of projects). My main role was firmware developer for embedded Linux platforms using C."
+              }
+            ],
+            "competences": [
+              {
+                "name": "C",
+                "type": "technology"
+              },
+              {
+                "name": "Mercurial",
+                "type": "technology"
+              },
+              {
+                "name": "network-protocols",
+                "type": "technology"
+              },
+              {
+                "name": "embedded-linux",
+                "type": "technology"
+              },
+              {
+                "name": "embedded",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Teldat"
+        },
+        "roles": [
+          {
+            "name": "Embedded Systems Engineer",
+            "startDate": "2004-01-01",
+            "finishDate": "2006-06-30",
+            "challenges": [
+              {
+                "description": "Teldat is a Spanish company that designs and manufactures corporate access routers. I worked in the R&D department, developing network protocols and writing firmware for embedded communication devices.\n\nI soon became Product Technical Manager for G.SHDSL and ADSL2+ product lines and PPP protocols, responsible over critical incidences on the client site, as well as homologation tests and relationship with chip and middleware suppliers.\n\nBeing a small company (30 R&D engineers) working against giants like Cisco, I got to do a bit of everything (today I was implementing the TED feature for IPSec, tomorrow maybe writing drivers for an ADSL2+ pluggable card)."
+              }
+            ],
+            "competences": [
+              {
+                "name": "C",
+                "type": "technology"
+              },
+              {
+                "name": "Linux",
+                "type": "technology"
+              },
+              {
+                "name": "embedded",
+                "type": "technology"
+              },
+              {
+                "name": "rtos",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Intel"
+        },
+        "roles": [
+          {
+            "name": "Computer Graphics Engineer",
+            "startDate": "2012-11-01",
+            "challenges": [
+              {
+                "description": "Senior Graphics Software Engineer working mainly on kernel-mode drivers (KMD) for Intel Graphics Hardware. Covering different graphic domains (3D, Media, Compute) and OSes (Linux/Android, Windows 10 Mobile, OSX)."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Windows",
+                "type": "technology"
+              },
+              {
+                "name": "C",
+                "type": "technology"
+              },
+              {
+                "name": "C++",
+                "type": "technology"
+              },
+              {
+                "name": "Android",
+                "type": "technology"
+              },
+              {
+                "name": "osx",
+                "type": "technology"
+              },
+              {
+                "name": "linux-kernel",
+                "type": "technology"
+              },
+              {
+                "name": "iokit",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Comtrend"
+        },
+        "roles": [
+          {
+            "name": "Embedded Systems Engineer",
+            "startDate": "2007-12-01",
+            "finishDate": "2010-12-31",
+            "challenges": [
+              {
+                "description": "Comtrend is an international company that designs, manufactures, and markets telecom and datacom equipment. Here, I was the first R&D engineer working outside Taiwan. My duties include:\n\n*   Cooperate with R&D teams in Taiwan on the development of firmware for networking embedded products, providing software customizations to adapt these products to the needs of European customers.\n    \n*   Work closely with customers to help test, design, and plan for deployments of new products and features. Offer on-site problem resolution for high level technical issues.\n    \n*   Develop C/C++ code for Linux based routers, VoIP IADs and IP set-top-boxes."
+              }
+            ],
+            "competences": [
+              {
+                "name": "C",
+                "type": "technology"
+              },
+              {
+                "name": "C#",
+                "type": "technology"
+              },
+              {
+                "name": ".NET",
+                "type": "technology"
+              },
+              {
+                "name": "Linux",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "Eclipse",
+                "type": "technology"
+              },
+              {
+                "name": "embedded",
+                "type": "technology"
+              },
+              {
+                "name": "iptv",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "details": {
+          "name": "i915 driver (Linux kernel)",
+          "URL": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/log/?id=refs%2Ftags%2Fv3.19-rc5&qt=grep&q=oscar.mateo%40intel.com"
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2022-03-28",
+            "competences": [
+              {
+                "name": "linux-kernel",
+                "type": "technology"
+              },
+              {
+                "name": "C",
+                "type": "technology"
+              },
+              {
+                "name": "gpu",
+                "type": "technology"
+              },
+              {
+                "name": "intel",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "studies": [
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Participant",
+        "startDate": "2006-01-01",
+        "finishDate": "2007-01-01",
+        "institution": {
+          "name": "Vulcanus in Japan"
+        }
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "M.S. Electrical Engineering",
+        "startDate": "1998-01-01",
+        "finishDate": "2003-01-01",
+        "institution": {
+          "name": "Universidad Politécnica de Valencia"
+        },
+        "linkedCompetences": [
+          {
+            "name": "signal-processing",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Ph.D. Computer Graphics",
+        "startDate": "2004-01-01",
+        "finishDate": "2004-01-01",
+        "institution": {
+          "name": "Universidad Autónoma de Madrid"
+        },
+        "linkedCompetences": [
+          {
+            "name": "C++",
+            "type": "technology"
+          },
+          {
+            "name": "cg",
+            "type": "technology"
+          },
+          {
+            "name": "OpenGL",
+            "type": "technology"
+          },
+          {
+            "name": "directx",
+            "type": "technology"
+          },
+          {
+            "name": "cuda",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "MSc Thesis",
+        "startDate": "2003-01-01",
+        "finishDate": "2003-01-01",
+        "institution": {
+          "name": "Michigan Technological University"
+        },
+        "linkedCompetences": [
+          {
+            "name": "C",
+            "type": "technology"
+          },
+          {
+            "name": "robotics",
+            "type": "technology"
+          },
+          {
+            "name": "wireless",
+            "type": "technology"
+          },
+          {
+            "name": "sensor",
+            "type": "technology"
+          }
+        ]
+      }
+    ]
+  },
+  "careerPreferences": {
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "C",
+          "type": "technology"
+        },
+        {
+          "name": "OpenGL",
+          "type": "technology"
+        }
+      ]
+    }
+  }
+}
