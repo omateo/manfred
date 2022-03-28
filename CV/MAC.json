@@ -263,6 +263,32 @@
       },
       {
         "organization": {
+          "name": "Apple"
+        },
+        "roles": [
+          {
+            "name": "Software Engineer at Apple",
+            "startDate": "2006-07-01",
+            "challenges": [
+              {
+                "description": ""
+              }
+            ],
+            "competences": [
+              {
+                "name": "iOS",
+                "type": "technology"
+              },
+              {
+                "name": "Objective-C",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
           "name": "Intel"
         },
         "roles": [
