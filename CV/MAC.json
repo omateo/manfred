@@ -295,7 +295,7 @@
           {
             "name": "Computer Graphics Engineer",
             "startDate": "2012-11-01",
-            "finishDate": "1992-07-01",
+            "finishDate": "1998-07-01",
             "challenges": [
               {
                 "description": "Senior Graphics Software Engineer working mainly on kernel-mode drivers (KMD) for Intel Graphics Hardware. Covering different graphic domains (3D, Media, Compute) and OSes (Linux/Android, Windows 10 Mobile, OSX)."
