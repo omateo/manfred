@@ -398,6 +398,14 @@
     ]
   },
   "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "type": "linkedin",
+          "URL": " https://www.linkedin.com/in/omateo"
+        }
+      ]
+    },
     "preferences": {
       "preferredCompetences": [
         {
