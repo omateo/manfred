@@ -272,39 +272,6 @@
           }
         ]
       }
-    ],
-    "projects": [
-      {
-        "details": {
-          "name": "i915 driver (Linux kernel)",
-          "URL": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/log/?id=refs%2Ftags%2Fv3.19-rc5&qt=grep&q=oscar.mateo%40intel.com"
-        },
-        "type": "openSource",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2022-03-28",
-            "competences": [
-              {
-                "name": "linux-kernel",
-                "type": "technology"
-              },
-              {
-                "name": "C",
-                "type": "technology"
-              },
-              {
-                "name": "gpu",
-                "type": "technology"
-              },
-              {
-                "name": "intel",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      }
     ]
   },
   "knowledge": {
@@ -350,10 +317,6 @@
             "type": "technology"
           },
           {
-            "name": "cg",
-            "type": "technology"
-          },
-          {
             "name": "OpenGL",
             "type": "technology"
           },
@@ -363,6 +326,10 @@
           },
           {
             "name": "cuda",
+            "type": "technology"
+          },
+          {
+            "name": "cg",
             "type": "technology"
           }
         ]
@@ -382,11 +349,11 @@
             "type": "technology"
           },
           {
-            "name": "robotics",
+            "name": "wireless",
             "type": "technology"
           },
           {
-            "name": "wireless",
+            "name": "robotics",
             "type": "technology"
           },
           {
