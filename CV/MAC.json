@@ -201,7 +201,12 @@
       },
       {
         "organization": {
-          "name": "Apple"
+          "name": "Apple",
+          "image": {
+            "alt": "apple.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/29/45f43a4a-2b84-4ec4-a780-75ba2de4fccb_apple.png"
+          },
+          "URL": "http://www.apple.com"
         },
         "roles": [
           {
