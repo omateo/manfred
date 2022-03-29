@@ -232,7 +232,12 @@
       },
       {
         "organization": {
-          "name": "Intel"
+          "name": "Intel",
+          "image": {
+            "alt": "intel.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/29/8c86b220-e5d4-4694-98e7-4088fd239b17_intel.png"
+          },
+          "URL": "http://www.intel.com"
         },
         "roles": [
           {
