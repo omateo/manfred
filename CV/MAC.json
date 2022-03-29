@@ -382,18 +382,6 @@
           "URL": " https://www.linkedin.com/in/omateo"
         }
       ]
-    },
-    "preferences": {
-      "preferredCompetences": [
-        {
-          "name": "C",
-          "type": "technology"
-        },
-        {
-          "name": "OpenGL",
-          "type": "technology"
-        }
-      ]
     }
   }
 }
