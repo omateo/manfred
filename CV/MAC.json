@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "settings": {
-    "language": "EN",
+    "language": "ES",
     "MACVersion": "0.3"
   },
   "aboutMe": {
@@ -15,7 +15,10 @@
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/7686eaae-80e3-4d0c-996d-1baa1724e176_2b1166f4553e56a14b26.2b1166f4553e56a14b26b1fed36b641a"
       },
       "location": {
-        "notes": "Madrid, Spain"
+        "country": "España",
+        "region": "Comunidad de Madrid",
+        "municipality": "Madrid",
+        "notes": "Autocompleted using Google Maps API"
       }
     },
     "relevantLinks": [
@@ -29,21 +32,61 @@
     "jobs": [
       {
         "organization": {
-          "name": "NTT (Nippon Telegraph and Telephone Corporation)"
+          "name": "Apple",
+          "image": {
+            "alt": "apple.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/29/45f43a4a-2b84-4ec4-a780-75ba2de4fccb_apple.png"
+          },
+          "URL": "http://www.apple.com"
         },
         "roles": [
           {
-            "name": "R&D Engineer",
-            "startDate": "2006-09-01",
-            "finishDate": "2007-08-31",
+            "name": "Software Engineer",
+            "startDate": "2018-07-01",
             "challenges": [
               {
-                "description": "Researcher at the Media Recognition Group, working with computer vision and video processing technologies. Here, I designed and implemented a 3D visual tracker capable of running in real-time on GPUs, thanks to NVIDIA CUDA technology.\n\nThis tracked was presented in several international conferences and [publications](http://portal.acm.org/citation.cfm?id=1612928)."
+                "description": ""
               }
             ],
             "competences": [
               {
-                "name": "Windows",
+                "name": "Apple iOS",
+                "type": "technology"
+              },
+              {
+                "name": "Objective-C",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Intel",
+          "image": {
+            "alt": "intel.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/29/8c86b220-e5d4-4694-98e7-4088fd239b17_intel.png"
+          },
+          "URL": "http://www.intel.com"
+        },
+        "roles": [
+          {
+            "name": "Computer Graphics Engineer",
+            "startDate": "2012-11-01",
+            "finishDate": "2018-07-01",
+            "challenges": [
+              {
+                "description": "Senior Graphics Software Engineer working mainly on kernel-mode drivers (KMD) for Intel Graphics Hardware. Covering different graphic domains (3D, Media, Compute) and OSes (Linux/Android, Windows 10 Mobile, OSX)."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Android",
+                "type": "technology"
+              },
+              {
+                "name": "C",
                 "type": "technology"
               },
               {
@@ -51,23 +94,19 @@
                 "type": "technology"
               },
               {
-                "name": "OpenGL",
+                "name": "Windows",
                 "type": "technology"
               },
               {
-                "name": "cuda",
+                "name": "iokit",
                 "type": "technology"
               },
               {
-                "name": "brook",
+                "name": "linux-kernel",
                 "type": "technology"
               },
               {
-                "name": "gpgpu",
-                "type": "technology"
-              },
-              {
-                "name": "sdl",
+                "name": "osx",
                 "type": "technology"
               }
             ]
@@ -98,7 +137,7 @@
                 "type": "technology"
               },
               {
-                "name": "network-protocols",
+                "name": "embedded",
                 "type": "technology"
               },
               {
@@ -106,7 +145,105 @@
                 "type": "technology"
               },
               {
+                "name": "network-protocols",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Comtrend"
+        },
+        "roles": [
+          {
+            "name": "Embedded Systems Engineer",
+            "startDate": "2007-12-01",
+            "finishDate": "2010-12-31",
+            "challenges": [
+              {
+                "description": "Comtrend is an international company that designs, manufactures, and markets telecom and datacom equipment. Here, I was the first R&D engineer working outside Taiwan. My duties include:\n\n*   Cooperate with R&D teams in Taiwan on the development of firmware for networking embedded products, providing software customizations to adapt these products to the needs of European customers.\n    \n*   Work closely with customers to help test, design, and plan for deployments of new products and features. Offer on-site problem resolution for high level technical issues.\n    \n*   Develop C/C++ code for Linux based routers, VoIP IADs and IP set-top-boxes."
+              }
+            ],
+            "competences": [
+              {
+                "name": ".NET",
+                "type": "technology"
+              },
+              {
+                "name": "C",
+                "type": "technology"
+              },
+              {
+                "name": "C#",
+                "type": "technology"
+              },
+              {
+                "name": "Eclipse",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "Linux",
+                "type": "technology"
+              },
+              {
                 "name": "embedded",
+                "type": "technology"
+              },
+              {
+                "name": "iptv",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "NTT (Nippon Telegraph and Telephone Corporation)"
+        },
+        "roles": [
+          {
+            "name": "R&D Engineer",
+            "startDate": "2006-09-01",
+            "finishDate": "2007-08-31",
+            "challenges": [
+              {
+                "description": "Researcher at the Media Recognition Group, working with computer vision and video processing technologies. Here, I designed and implemented a 3D visual tracker capable of running in real-time on GPUs, thanks to NVIDIA CUDA technology.\n\nThis tracked was presented in several international conferences and [publications](http://portal.acm.org/citation.cfm?id=1612928)."
+              }
+            ],
+            "competences": [
+              {
+                "name": "C++",
+                "type": "technology"
+              },
+              {
+                "name": "OpenGL",
+                "type": "technology"
+              },
+              {
+                "name": "Windows",
+                "type": "technology"
+              },
+              {
+                "name": "brook",
+                "type": "technology"
+              },
+              {
+                "name": "cuda",
+                "type": "technology"
+              },
+              {
+                "name": "gpgpu",
+                "type": "technology"
+              },
+              {
+                "name": "sdl",
                 "type": "technology"
               }
             ]
@@ -147,144 +284,54 @@
             ]
           }
         ]
-      },
-      {
-        "organization": {
-          "name": "Comtrend"
-        },
-        "roles": [
-          {
-            "name": "Embedded Systems Engineer",
-            "startDate": "2007-12-01",
-            "finishDate": "2010-12-31",
-            "challenges": [
-              {
-                "description": "Comtrend is an international company that designs, manufactures, and markets telecom and datacom equipment. Here, I was the first R&D engineer working outside Taiwan. My duties include:\n\n*   Cooperate with R&D teams in Taiwan on the development of firmware for networking embedded products, providing software customizations to adapt these products to the needs of European customers.\n    \n*   Work closely with customers to help test, design, and plan for deployments of new products and features. Offer on-site problem resolution for high level technical issues.\n    \n*   Develop C/C++ code for Linux based routers, VoIP IADs and IP set-top-boxes."
-              }
-            ],
-            "competences": [
-              {
-                "name": "C",
-                "type": "technology"
-              },
-              {
-                "name": "C#",
-                "type": "technology"
-              },
-              {
-                "name": ".NET",
-                "type": "technology"
-              },
-              {
-                "name": "Linux",
-                "type": "technology"
-              },
-              {
-                "name": "Git",
-                "type": "technology"
-              },
-              {
-                "name": "Eclipse",
-                "type": "technology"
-              },
-              {
-                "name": "embedded",
-                "type": "technology"
-              },
-              {
-                "name": "iptv",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Apple",
-          "image": {
-            "alt": "apple.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/29/45f43a4a-2b84-4ec4-a780-75ba2de4fccb_apple.png"
-          },
-          "URL": "http://www.apple.com"
-        },
-        "roles": [
-          {
-            "name": "Software Engineer",
-            "startDate": "2018-07-01",
-            "challenges": [
-              {
-                "description": ""
-              }
-            ],
-            "competences": [
-              {
-                "name": "iOS",
-                "type": "technology"
-              },
-              {
-                "name": "Objective-C",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Intel",
-          "image": {
-            "alt": "intel.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/29/8c86b220-e5d4-4694-98e7-4088fd239b17_intel.png"
-          },
-          "URL": "http://www.intel.com"
-        },
-        "roles": [
-          {
-            "name": "Computer Graphics Engineer",
-            "startDate": "2012-11-01",
-            "finishDate": "2018-07-01",
-            "challenges": [
-              {
-                "description": "Senior Graphics Software Engineer working mainly on kernel-mode drivers (KMD) for Intel Graphics Hardware. Covering different graphic domains (3D, Media, Compute) and OSes (Linux/Android, Windows 10 Mobile, OSX)."
-              }
-            ],
-            "competences": [
-              {
-                "name": "Windows",
-                "type": "technology"
-              },
-              {
-                "name": "C",
-                "type": "technology"
-              },
-              {
-                "name": "C++",
-                "type": "technology"
-              },
-              {
-                "name": "Android",
-                "type": "technology"
-              },
-              {
-                "name": "osx",
-                "type": "technology"
-              },
-              {
-                "name": "linux-kernel",
-                "type": "technology"
-              },
-              {
-                "name": "iokit",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
       }
     ]
   },
   "knowledge": {
+    "hardSkills": [
+      {
+        "skill": {
+          "name": "Objective-C",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Swift",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "C",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SwiftUI",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "C++",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "OpenGL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "UIKit",
+          "type": "technology"
+        }
+      }
+    ],
     "studies": [
       {
         "studyType": "officialDegree",
@@ -293,24 +340,9 @@
         "startDate": "2006-01-01",
         "finishDate": "2007-01-01",
         "institution": {
-          "name": "Vulcanus in Japan"
+          "name": "Vulcanus in Japan",
+          "description": ""
         }
-      },
-      {
-        "studyType": "officialDegree",
-        "degreeAchieved": true,
-        "name": "M.S. Electrical Engineering",
-        "startDate": "1998-01-01",
-        "finishDate": "2003-01-01",
-        "institution": {
-          "name": "Universidad Politécnica de Valencia"
-        },
-        "linkedCompetences": [
-          {
-            "name": "signal-processing",
-            "type": "technology"
-          }
-        ]
       },
       {
         "studyType": "officialDegree",
@@ -319,7 +351,8 @@
         "startDate": "2004-01-01",
         "finishDate": "2004-01-01",
         "institution": {
-          "name": "Universidad Autónoma de Madrid"
+          "name": "Universidad Autónoma de Madrid",
+          "description": ""
         },
         "linkedCompetences": [
           {
@@ -331,7 +364,7 @@
             "type": "technology"
           },
           {
-            "name": "directx",
+            "name": "cg",
             "type": "technology"
           },
           {
@@ -339,7 +372,7 @@
             "type": "technology"
           },
           {
-            "name": "cg",
+            "name": "directx",
             "type": "technology"
           }
         ]
@@ -351,15 +384,12 @@
         "startDate": "2003-01-01",
         "finishDate": "2003-01-01",
         "institution": {
-          "name": "Michigan Technological University"
+          "name": "Michigan Technological University",
+          "description": ""
         },
         "linkedCompetences": [
           {
             "name": "C",
-            "type": "technology"
-          },
-          {
-            "name": "wireless",
             "type": "technology"
           },
           {
@@ -368,6 +398,27 @@
           },
           {
             "name": "sensor",
+            "type": "technology"
+          },
+          {
+            "name": "wireless",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "M.S. Electrical Engineering",
+        "startDate": "1998-01-01",
+        "finishDate": "2003-01-01",
+        "institution": {
+          "name": "Universidad Politécnica de Valencia",
+          "description": ""
+        },
+        "linkedCompetences": [
+          {
+            "name": "signal-processing",
             "type": "technology"
           }
         ]
@@ -382,6 +433,19 @@
           "URL": " https://www.linkedin.com/in/omateo"
         }
       ]
-    }
+    },
+    "status": "notAvailable"
+  },
+  "asgardPreferences": {
+    "mainStackTechs": [
+      {
+        "name": "Objective-C",
+        "type": "technology"
+      },
+      {
+        "name": "C",
+        "type": "technology"
+      }
+    ]
   }
 }
