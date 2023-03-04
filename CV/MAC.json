@@ -444,6 +444,11 @@
         }
       ]
     },
+    "preferences": {
+      "preferredRoles": [
+        "Software Architect"
+      ]
+    },
     "status": "notAvailable"
   },
   "asgardPreferences": {
